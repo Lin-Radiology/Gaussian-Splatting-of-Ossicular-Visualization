@@ -12,9 +12,8 @@ This repository provides supplementary materials, evaluation scripts, and quanti
 This repository contains:
 
 - Evaluation scripts for geometric consistency analysis
-- Quantitative measurement outputs (machine-readable format)
+- Quantitative measurement outputs 
 - Example Gaussian point cloud models (non-identifiable)
-- Instructions for reproducing geometric metrics
 - Statistical summaries reported in the manuscript
 
 This repository is provided to enhance transparency, reproducibility, and compliance with Springer Open data-sharing policies.
@@ -31,9 +30,8 @@ However, the following materials are publicly provided:
 
 - Geometric evaluation scripts
 - Surface-to-Gaussian distance measurements (.npy format)
-- Summary statistics (.csv format)
 - Aggregated quantitative metrics
-- Representative Gaussian point clouds (.ply format, anonymized)
+- Representative Gaussian point cloud (.ply format, anonymized)
 
 Researchers may request access to de-identified data subject to institutional approval.
 
@@ -63,68 +61,80 @@ The repository is organized as follows:
 ``` 
 ---
 
-## 4. Quantitative Metrics Reported
+## 4. Reproducibility Instructions
 
-The following quantitative metrics were computed and reported in Section 3.2 of the manuscript:
-
-### Geometric Consistency (Surface-to-Gaussian Distance)
-
-| Metric | Mean ± SD (mm) |
-|--------|----------------|
-| Mean distance | 0.132 ± 0.037 |
-| Median distance | 0.115 ± 0.032 |
-| 90th percentile | 0.237 ± 0.073 |
-
-### Surface Coverage (Threshold = 0.3 mm)
-
-| Case | Coverage (%) |
-|------|--------------|
-| Case 1 | 90.75% |
-| Case 2 | 99.48% |
-| Case 3 | 92.00% |
-| **Overall** | **94.08% ± 3.86%** |
-
-All data are provided in machine-readable `.csv` format.
+This section outlines the overall workflow from automated segmentation to Gaussian splatting–based visualization and quantitative evaluation.
 
 ---
 
-## 5. Reproducibility Instructions
+### Step 1. Automated Segmentation (nnU-Net)
 
-### Requirements
+Clinical CT images were converted to NIfTI format and organized following the nnU-Net v2 dataset structure.
 
-- Python ≥ 3.9
-- nibabel
-- trimesh
-- open3d
-- numpy
-- scipy
-- matplotlib
+Segmentation was performed using:
 
-### Step 1: Generate Surface Mesh from Segmentation
+- **nnU-Net v2**  
+  https://github.com/MIC-DKFZ/nnUNet  
 
-Use `geometry_consistency.py` to:
-
-- Convert NIfTI mask to surface mesh (Marching Cubes)
-- Load Gaussian point cloud
-- Compute surface-to-Gaussian nearest-neighbor distances
-
-### Step 2: Compute Coverage Ratio
-
-Use `coverage_evaluation.py` to calculate:
-
-Coverage = proportion of surface points within 0.3 mm of Gaussian representation
-
-### Step 3: Generate Combined Visualization
-
-The script produces:
-
-- Histogram of geometric distances
-- Cumulative distribution function (CDF)
-- Combined publication-ready figure
+Training and inference were conducted using the standard 3D full-resolution configuration. The output consisted of binary ossicular masks in `.nii.gz` format.
 
 ---
 
-## 6. Software Environment and External Dependencies
+### Step 2.Resample and Zoom
+
+The predicted segmentation masks were used to resample origin files and improve render efficiency.
+
+Script:
+```Zoom_Resample_SigFile.py```
+
+Output:
+- Surface mesh (`.ply`)
+
+---
+
+### Step 3. Blender-Based Visualization
+
+Surface meshes were imported into:
+
+- **Blender 4.2 LTS**
+- Bioxel Nodes (v1.0.9)
+
+Cinematic rendering was performed using Cycles, with multi-angle orbital camera placement to generate high-resolution visualization images.
+
+---
+
+### Step 4. Gaussian Splatting Optimization
+
+Gaussian splatting models were generated using the official implementation:
+
+https://github.com/graphdeco-inria/gaussian-splatting  
+
+The optimized Gaussian representation was exported as:
+```point_cloud/iteration_30000/point_cloud.ply```
+Each case contained approximately 50,000–65,000 Gaussian primitives.
+
+---
+
+### Step 5. Geometric Evaluation
+
+Geometric consistency between segmentation surfaces and Gaussian representations was computed using:
+```geometry_consistency.py```
+Surface coverage analysis was performed using:
+```calc_coverage.py```
+
+---
+
+### Workflow Summary
+
+Clinical CT  
+→ nnU-Net segmentation  
+→ Resample and Zoom
+→ Blender visualization  
+→ Gaussian splatting optimization  
+→ Geometric consistency & coverage evaluation
+---
+
+## 5. Software Environment and External Dependencies
 
 The visualization and segmentation pipeline was implemented using the following software and external frameworks:
 
@@ -148,31 +158,9 @@ The Gaussian optimization and point cloud generation were performed using the of
 
 The segmentation network was trained on manually annotated ossicular masks using the standard nnU-Net configuration with region-of-interest cropping and intensity normalization.
 
-### Python Environment
-
-- Python ≥ 3.9  
-- nibabel  
-- trimesh  
-- open3d  
-- numpy  
-- scipy  
-- matplotlib
-
 ---
 
-## 7. Machine-Readable Files
-
-To comply with Springer Open policy, all quantitative data are provided in:
-
-- `.csv` (tabular summary)
-- `.npy` (raw distance arrays)
-- `.ply` (3D point cloud format)
-
-No data are embedded in PDF-only format.
-
----
-
-## 8. Ethical Considerations
+## 6. Ethical Considerations
 
 - All clinical data were retrospectively collected.
 - Institutional review board approval was obtained.
@@ -181,7 +169,7 @@ No data are embedded in PDF-only format.
 
 ---
 
-## 9. Model Characteristics
+## 7. Model Characteristics
 
 Representative Gaussian models:
 
@@ -191,7 +179,7 @@ Representative Gaussian models:
 
 ---
 
-## 10. Intended Use
+## 8. Intended Use
 
 This repository is intended for:
 
@@ -204,7 +192,7 @@ It is not intended for clinical diagnosis.
 ---
 
 
-## 11. Contact
+## 9. Contact
 
 For academic inquiries:
 
