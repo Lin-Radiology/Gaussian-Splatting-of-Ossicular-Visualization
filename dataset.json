@@ -1,0 +1,13 @@
+{
+    "name": "InnerEar_CT_Bone",
+    "description": "Inner ear CT with bone window",
+    "channel_names": {
+        "0": "CT_bone"
+    },
+    "labels": {
+        "background": 0,
+        "inner_ossicles": 1
+    },
+    "numTraining": 106,
+    "file_ending": ".nii.gz"
+}

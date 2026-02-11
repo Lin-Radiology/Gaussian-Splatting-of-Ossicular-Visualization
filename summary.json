@@ -1,0 +1,1722 @@
+{
+    "foreground_mean": {
+        "Dice": 0.7722120918275207,
+        "FN": 754.0094339622641,
+        "FP": 135.50943396226415,
+        "IoU": 0.638157303219391,
+        "TN": 129198902.85849057,
+        "TP": 1340.301886792453,
+        "n_pred": 1475.811320754717,
+        "n_ref": 2094.311320754717
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.7722120918275207,
+            "FN": 754.0094339622641,
+            "FP": 135.50943396226415,
+            "IoU": 0.638157303219391,
+            "TN": 129198902.85849057,
+            "TP": 1340.301886792453,
+            "n_pred": 1475.811320754717,
+            "n_ref": 2094.311320754717
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8445371410235841,
+                    "FN": 723,
+                    "FP": 246,
+                    "IoU": 0.7309080810885865,
+                    "TN": 209711599,
+                    "TP": 2632,
+                    "n_pred": 2878,
+                    "n_ref": 3355
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0000423305.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0000423305.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7648963730569949,
+                    "FN": 655,
+                    "FP": 71,
+                    "IoU": 0.6192973256423702,
+                    "TN": 206567565,
+                    "TP": 1181,
+                    "n_pred": 1252,
+                    "n_ref": 1836
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0000459998.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0000459998.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7412008281573499,
+                    "FN": 1139,
+                    "FP": 236,
+                    "IoU": 0.5888157894736842,
+                    "TN": 206566128,
+                    "TP": 1969,
+                    "n_pred": 2205,
+                    "n_ref": 3108
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0000808641.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0000808641.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8622677770659833,
+                    "FN": 85,
+                    "FP": 130,
+                    "IoU": 0.7578828828828829,
+                    "TN": 42204296,
+                    "TP": 673,
+                    "n_pred": 803,
+                    "n_ref": 758
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0000823574.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0000823574.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8170731707317073,
+                    "FN": 636,
+                    "FP": 84,
+                    "IoU": 0.6907216494845361,
+                    "TN": 57931496,
+                    "TP": 1608,
+                    "n_pred": 1692,
+                    "n_ref": 2244
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0001123393.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0001123393.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8152287809989521,
+                    "FN": 386,
+                    "FP": 143,
+                    "IoU": 0.6880896226415094,
+                    "TN": 84670816,
+                    "TP": 1167,
+                    "n_pred": 1310,
+                    "n_ref": 1553
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0001985677.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0001985677.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7557489123679304,
+                    "FN": 531,
+                    "FP": 255,
+                    "IoU": 0.6073926073926074,
+                    "TN": 100923438,
+                    "TP": 1216,
+                    "n_pred": 1471,
+                    "n_ref": 1747
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0002941974.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0002941974.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7635895786426504,
+                    "FN": 564,
+                    "FP": 171,
+                    "IoU": 0.617585848074922,
+                    "TN": 175110270,
+                    "TP": 1187,
+                    "n_pred": 1358,
+                    "n_ref": 1751
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0003424173.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0003424173.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8327953518398967,
+                    "FN": 385,
+                    "FP": 133,
+                    "IoU": 0.713495575221239,
+                    "TN": 55310576,
+                    "TP": 1290,
+                    "n_pred": 1423,
+                    "n_ref": 1675
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0003622491.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0003622491.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8363752801793147,
+                    "FN": 353,
+                    "FP": 158,
+                    "IoU": 0.7187671986791414,
+                    "TN": 88340711,
+                    "TP": 1306,
+                    "n_pred": 1464,
+                    "n_ref": 1659
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0003744363.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0003744363.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8526912181303116,
+                    "FN": 315,
+                    "FP": 101,
+                    "IoU": 0.7432098765432099,
+                    "TN": 76806572,
+                    "TP": 1204,
+                    "n_pred": 1305,
+                    "n_ref": 1519
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0005706362.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0005706362.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7639979068550498,
+                    "FN": 425,
+                    "FP": 26,
+                    "IoU": 0.6181202370872142,
+                    "TN": 38009699,
+                    "TP": 730,
+                    "n_pred": 756,
+                    "n_ref": 1155
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0007771262.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0007771262.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7886710239651417,
+                    "FN": 83,
+                    "FP": 111,
+                    "IoU": 0.6510791366906474,
+                    "TN": 54263252,
+                    "TP": 362,
+                    "n_pred": 473,
+                    "n_ref": 445
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0008044607.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0008044607.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7158765510658607,
+                    "FN": 878,
+                    "FP": 15,
+                    "IoU": 0.5574826560951437,
+                    "TN": 135067678,
+                    "TP": 1125,
+                    "n_pred": 1140,
+                    "n_ref": 2003
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0008239869.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0008239869.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7780049988638945,
+                    "FN": 1805,
+                    "FP": 149,
+                    "IoU": 0.6366679062848642,
+                    "TN": 349170430,
+                    "TP": 3424,
+                    "n_pred": 3573,
+                    "n_ref": 5229
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0008801632.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0008801632.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.801473439317565,
+                    "FN": 937,
+                    "FP": 87,
+                    "IoU": 0.6687156260109997,
+                    "TN": 284161005,
+                    "TP": 2067,
+                    "n_pred": 2154,
+                    "n_ref": 3004
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0008824273.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0008824273.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8033012379642366,
+                    "FN": 584,
+                    "FP": 131,
+                    "IoU": 0.671264367816092,
+                    "TN": 77854593,
+                    "TP": 1460,
+                    "n_pred": 1591,
+                    "n_ref": 2044
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0009018774.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0009018774.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 45,
+                    "IoU": 0.0,
+                    "TN": 143392723,
+                    "TP": 0,
+                    "n_pred": 45,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0009559481.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0009559481.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7973936061901853,
+                    "FN": 842,
+                    "FP": 153,
+                    "IoU": 0.6630545208262784,
+                    "TN": 155186295,
+                    "TP": 1958,
+                    "n_pred": 2111,
+                    "n_ref": 2800
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0009592395.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0009592395.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7510438413361169,
+                    "FN": 843,
+                    "FP": 111,
+                    "IoU": 0.6013372335979942,
+                    "TN": 75232935,
+                    "TP": 1439,
+                    "n_pred": 1550,
+                    "n_ref": 2282
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0009665752.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0009665752.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8376259798432251,
+                    "FN": 930,
+                    "FP": 520,
+                    "IoU": 0.720616570327553,
+                    "TN": 362802106,
+                    "TP": 3740,
+                    "n_pred": 4260,
+                    "n_ref": 4670
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0010017798.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0010017798.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8237585199610516,
+                    "FN": 431,
+                    "FP": 112,
+                    "IoU": 0.7003311258278145,
+                    "TN": 71039212,
+                    "TP": 1269,
+                    "n_pred": 1381,
+                    "n_ref": 1700
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0010222562.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0010222562.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8067906224737268,
+                    "FN": 351,
+                    "FP": 127,
+                    "IoU": 0.6761517615176151,
+                    "TN": 92011068,
+                    "TP": 998,
+                    "n_pred": 1125,
+                    "n_ref": 1349
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0010422675.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0010422675.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7706515120763142,
+                    "FN": 1978,
+                    "FP": 282,
+                    "IoU": 0.6268779924054813,
+                    "TN": 369092695,
+                    "TP": 3797,
+                    "n_pred": 4079,
+                    "n_ref": 5775
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0011300853.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0011300853.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7732656514382402,
+                    "FN": 164,
+                    "FP": 104,
+                    "IoU": 0.6303448275862069,
+                    "TN": 48233771,
+                    "TP": 457,
+                    "n_pred": 561,
+                    "n_ref": 621
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0013699943.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0013699943.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6331945889698231,
+                    "FN": 1156,
+                    "FP": 254,
+                    "IoU": 0.46326608298439287,
+                    "TN": 233829821,
+                    "TP": 1217,
+                    "n_pred": 1471,
+                    "n_ref": 2373
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0013749705.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0013749705.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7855787476280834,
+                    "FN": 33,
+                    "FP": 80,
+                    "IoU": 0.646875,
+                    "TN": 22019776,
+                    "TP": 207,
+                    "n_pred": 287,
+                    "n_ref": 240
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0013876894.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0013876894.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7870370370370371,
+                    "FN": 1073,
+                    "FP": 77,
+                    "IoU": 0.648854961832061,
+                    "TN": 189788981,
+                    "TP": 2125,
+                    "n_pred": 2202,
+                    "n_ref": 3198
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0013905772.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0013905772.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7361299052774019,
+                    "FN": 361,
+                    "FP": 29,
+                    "IoU": 0.582441113490364,
+                    "TN": 46922842,
+                    "TP": 544,
+                    "n_pred": 573,
+                    "n_ref": 905
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0014243900.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0014243900.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8104615384615385,
+                    "FN": 550,
+                    "FP": 66,
+                    "IoU": 0.6813243662700466,
+                    "TN": 73660531,
+                    "TP": 1317,
+                    "n_pred": 1383,
+                    "n_ref": 1867
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015096684.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015096684.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.751953125,
+                    "FN": 392,
+                    "FP": 116,
+                    "IoU": 0.6025039123630673,
+                    "TN": 112458498,
+                    "TP": 770,
+                    "n_pred": 886,
+                    "n_ref": 1162
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015275985.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015275985.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7863952589538779,
+                    "FN": 676,
+                    "FP": 153,
+                    "IoU": 0.6479830148619957,
+                    "TN": 66320077,
+                    "TP": 1526,
+                    "n_pred": 1679,
+                    "n_ref": 2202
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015583497.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015583497.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.833103448275862,
+                    "FN": 149,
+                    "FP": 93,
+                    "IoU": 0.7139479905437353,
+                    "TN": 44039346,
+                    "TP": 604,
+                    "n_pred": 697,
+                    "n_ref": 753
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015620245.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015620245.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.20820526526794067,
+                    "FN": 17662,
+                    "FP": 113,
+                    "IoU": 0.11619928400954654,
+                    "TN": 236958064,
+                    "TP": 2337,
+                    "n_pred": 2450,
+                    "n_ref": 19999
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015739578.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015739578.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8337730870712401,
+                    "FN": 229,
+                    "FP": 23,
+                    "IoU": 0.7149321266968326,
+                    "TN": 49806476,
+                    "TP": 632,
+                    "n_pred": 655,
+                    "n_ref": 861
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015803014.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015803014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8403041825095057,
+                    "FN": 297,
+                    "FP": 123,
+                    "IoU": 0.7245901639344262,
+                    "TN": 84670987,
+                    "TP": 1105,
+                    "n_pred": 1228,
+                    "n_ref": 1402
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0015830064.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0015830064.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8180112570356473,
+                    "FN": 253,
+                    "FP": 38,
+                    "IoU": 0.692063492063492,
+                    "TN": 45612111,
+                    "TP": 654,
+                    "n_pred": 692,
+                    "n_ref": 907
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0016161398.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0016161398.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8241042345276873,
+                    "FN": 819,
+                    "FP": 261,
+                    "IoU": 0.7008310249307479,
+                    "TN": 101446118,
+                    "TP": 2530,
+                    "n_pred": 2791,
+                    "n_ref": 3349
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0016217630.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0016217630.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7914438502673797,
+                    "FN": 102,
+                    "FP": 15,
+                    "IoU": 0.6548672566371682,
+                    "TN": 20971181,
+                    "TP": 222,
+                    "n_pred": 237,
+                    "n_ref": 324
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0016530489.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0016530489.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7929471032745592,
+                    "FN": 269,
+                    "FP": 142,
+                    "IoU": 0.6569282136894825,
+                    "TN": 95681362,
+                    "TP": 787,
+                    "n_pred": 929,
+                    "n_ref": 1056
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0016673349.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0016673349.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8109226313611916,
+                    "FN": 384,
+                    "FP": 73,
+                    "IoU": 0.6819763395963814,
+                    "TN": 108264035,
+                    "TP": 980,
+                    "n_pred": 1053,
+                    "n_ref": 1364
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0016865783.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0016865783.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7894736842105263,
+                    "FN": 303,
+                    "FP": 121,
+                    "IoU": 0.6521739130434783,
+                    "TN": 118750013,
+                    "TP": 795,
+                    "n_pred": 916,
+                    "n_ref": 1098
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0017195101.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0017195101.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8414160016369961,
+                    "FN": 564,
+                    "FP": 211,
+                    "IoU": 0.7262451430589898,
+                    "TN": 236975345,
+                    "TP": 2056,
+                    "n_pred": 2267,
+                    "n_ref": 2620
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0017228417.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0017228417.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7421529876772843,
+                    "FN": 1053,
+                    "FP": 56,
+                    "IoU": 0.5900184842883549,
+                    "TN": 206566767,
+                    "TP": 1596,
+                    "n_pred": 1652,
+                    "n_ref": 2649
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0018310839.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0018310839.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7848948374760994,
+                    "FN": 404,
+                    "FP": 46,
+                    "IoU": 0.6459480723839497,
+                    "TN": 99875593,
+                    "TP": 821,
+                    "n_pred": 867,
+                    "n_ref": 1225
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0018410339.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0018410339.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7336762270072357,
+                    "FN": 2745,
+                    "FP": 310,
+                    "IoU": 0.5793749139474047,
+                    "TN": 414180257,
+                    "TP": 4208,
+                    "n_pred": 4518,
+                    "n_ref": 6953
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0019158833.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0019158833.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7722382179118048,
+                    "FN": 1366,
+                    "FP": 137,
+                    "IoU": 0.6289804986423105,
+                    "TN": 225439789,
+                    "TP": 2548,
+                    "n_pred": 2685,
+                    "n_ref": 3914
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0019243418.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0019243418.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8037974683544303,
+                    "FN": 175,
+                    "FP": 11,
+                    "IoU": 0.671957671957672,
+                    "TN": 50068937,
+                    "TP": 381,
+                    "n_pred": 392,
+                    "n_ref": 556
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0019996695.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0019996695.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8346704420324053,
+                    "FN": 932,
+                    "FP": 119,
+                    "IoU": 0.7162526997840173,
+                    "TN": 216002952,
+                    "TP": 2653,
+                    "n_pred": 2772,
+                    "n_ref": 3585
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0020025994.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0020025994.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8168649767201241,
+                    "FN": 594,
+                    "FP": 114,
+                    "IoU": 0.690424136423262,
+                    "TN": 56358673,
+                    "TP": 1579,
+                    "n_pred": 1693,
+                    "n_ref": 2173
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0020129728.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0020129728.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7703851925962981,
+                    "FN": 403,
+                    "FP": 56,
+                    "IoU": 0.6265256305939788,
+                    "TN": 90438451,
+                    "TP": 770,
+                    "n_pred": 826,
+                    "n_ref": 1173
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0020868873.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0020868873.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7018333869411386,
+                    "FN": 1819,
+                    "FP": 35,
+                    "IoU": 0.5406342913776016,
+                    "TN": 207614012,
+                    "TP": 2182,
+                    "n_pred": 2217,
+                    "n_ref": 4001
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0021398774.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0021398774.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8250991705733862,
+                    "FN": 425,
+                    "FP": 60,
+                    "IoU": 0.7022713321055862,
+                    "TN": 79952291,
+                    "TP": 1144,
+                    "n_pred": 1204,
+                    "n_ref": 1569
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032248906.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032248906.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7628928898382668,
+                    "FN": 1409,
+                    "FP": 145,
+                    "IoU": 0.61667488899852,
+                    "TN": 206565418,
+                    "TP": 2500,
+                    "n_pred": 2645,
+                    "n_ref": 3909
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032299260.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032299260.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8096740273396424,
+                    "FN": 265,
+                    "FP": 97,
+                    "IoU": 0.6802120141342756,
+                    "TN": 154401684,
+                    "TP": 770,
+                    "n_pred": 867,
+                    "n_ref": 1035
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032330443.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032330443.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8043940467753367,
+                    "FN": 472,
+                    "FP": 80,
+                    "IoU": 0.6727919383521044,
+                    "TN": 97253737,
+                    "TP": 1135,
+                    "n_pred": 1215,
+                    "n_ref": 1607
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032455756.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032455756.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.819001386962552,
+                    "FN": 431,
+                    "FP": 91,
+                    "IoU": 0.6934820904286553,
+                    "TN": 82049369,
+                    "TP": 1181,
+                    "n_pred": 1272,
+                    "n_ref": 1612
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032648413.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032648413.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8650427913100724,
+                    "FN": 152,
+                    "FP": 53,
+                    "IoU": 0.7621809744779582,
+                    "TN": 30932130,
+                    "TP": 657,
+                    "n_pred": 710,
+                    "n_ref": 809
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0032656729.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0032656729.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8569562377531026,
+                    "FN": 176,
+                    "FP": 43,
+                    "IoU": 0.7497142857142857,
+                    "TN": 39058581,
+                    "TP": 656,
+                    "n_pred": 699,
+                    "n_ref": 832
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0033671691.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0033671691.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6137750653879687,
+                    "FN": 364,
+                    "FP": 79,
+                    "IoU": 0.4427672955974843,
+                    "TN": 89914597,
+                    "TP": 352,
+                    "n_pred": 431,
+                    "n_ref": 716
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0033734104.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0033734104.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8023294509151414,
+                    "FN": 1135,
+                    "FP": 53,
+                    "IoU": 0.6699083078632954,
+                    "TN": 242217457,
+                    "TP": 2411,
+                    "n_pred": 2464,
+                    "n_ref": 3546
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0033787730.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0033787730.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6955307262569832,
+                    "FN": 1303,
+                    "FP": 5,
+                    "IoU": 0.5331905781584583,
+                    "TN": 285209870,
+                    "TP": 1494,
+                    "n_pred": 1499,
+                    "n_ref": 2797
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0034082761.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0034082761.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7727458180334558,
+                    "FN": 1070,
+                    "FP": 44,
+                    "IoU": 0.629654255319149,
+                    "TN": 77853760,
+                    "TP": 1894,
+                    "n_pred": 1938,
+                    "n_ref": 2964
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0035514653.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0035514653.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6543525969275786,
+                    "FN": 1873,
+                    "FP": 17,
+                    "IoU": 0.486273443870617,
+                    "TN": 231731617,
+                    "TP": 1789,
+                    "n_pred": 1806,
+                    "n_ref": 3662
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0035667992.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0035667992.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7626524135627192,
+                    "FN": 257,
+                    "FP": 1164,
+                    "IoU": 0.6163606911447084,
+                    "TN": 168817032,
+                    "TP": 2283,
+                    "n_pred": 3447,
+                    "n_ref": 2540
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0035969435.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0035969435.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8286334056399133,
+                    "FN": 488,
+                    "FP": 65,
+                    "IoU": 0.7074074074074074,
+                    "TN": 88864926,
+                    "TP": 1337,
+                    "n_pred": 1402,
+                    "n_ref": 1825
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0036078955.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0036078955.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.788354898336414,
+                    "FN": 424,
+                    "FP": 34,
+                    "IoU": 0.6506483600305111,
+                    "TN": 108264161,
+                    "TP": 853,
+                    "n_pred": 887,
+                    "n_ref": 1277
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0036625673.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0036625673.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7006109979633401,
+                    "FN": 567,
+                    "FP": 21,
+                    "IoU": 0.5391849529780565,
+                    "TN": 81525508,
+                    "TP": 688,
+                    "n_pred": 709,
+                    "n_ref": 1255
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0036986618.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0036986618.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8196476241324079,
+                    "FN": 1272,
+                    "FP": 417,
+                    "IoU": 0.694409263614981,
+                    "TN": 479193705,
+                    "TP": 3838,
+                    "n_pred": 4255,
+                    "n_ref": 5110
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0036987169.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0036987169.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8306474413344642,
+                    "FN": 348,
+                    "FP": 251,
+                    "IoU": 0.710348162475822,
+                    "TN": 71038956,
+                    "TP": 1469,
+                    "n_pred": 1720,
+                    "n_ref": 1817
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0037405502.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0037405502.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7327935222672065,
+                    "FN": 130,
+                    "FP": 2,
+                    "IoU": 0.5782747603833865,
+                    "TN": 18874055,
+                    "TP": 181,
+                    "n_pred": 183,
+                    "n_ref": 311
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0037836318.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0037836318.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8290571870170016,
+                    "FN": 412,
+                    "FP": 141,
+                    "IoU": 0.708025343189018,
+                    "TN": 83097754,
+                    "TP": 1341,
+                    "n_pred": 1482,
+                    "n_ref": 1753
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0038957963.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0038957963.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7701941139636819,
+                    "FN": 319,
+                    "FP": 48,
+                    "IoU": 0.6262729124236253,
+                    "TN": 36961322,
+                    "TP": 615,
+                    "n_pred": 663,
+                    "n_ref": 934
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0039618501.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0039618501.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7464114832535885,
+                    "FN": 354,
+                    "FP": 176,
+                    "IoU": 0.5954198473282443,
+                    "TN": 109312738,
+                    "TP": 780,
+                    "n_pred": 956,
+                    "n_ref": 1134
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0039890848.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0039890848.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7975895072669266,
+                    "FN": 285,
+                    "FP": 286,
+                    "IoU": 0.6633254716981132,
+                    "TN": 73660768,
+                    "TP": 1125,
+                    "n_pred": 1411,
+                    "n_ref": 1410
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0039894272.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0039894272.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6231369765791341,
+                    "FN": 719,
+                    "FP": 343,
+                    "IoU": 0.45257731958762887,
+                    "TN": 93583468,
+                    "TP": 878,
+                    "n_pred": 1221,
+                    "n_ref": 1597
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0039901447.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0039901447.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8535907083265173,
+                    "FN": 691,
+                    "FP": 204,
+                    "IoU": 0.7445776255707762,
+                    "TN": 385872464,
+                    "TP": 2609,
+                    "n_pred": 2813,
+                    "n_ref": 3300
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0039965842.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0039965842.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7825851811790157,
+                    "FN": 698,
+                    "FP": 106,
+                    "IoU": 0.6428254109284762,
+                    "TN": 223344437,
+                    "TP": 1447,
+                    "n_pred": 1553,
+                    "n_ref": 2145
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041411439.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041411439.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5757121439280359,
+                    "FN": 282,
+                    "FP": 1,
+                    "IoU": 0.40421052631578946,
+                    "TN": 22281765,
+                    "TP": 192,
+                    "n_pred": 193,
+                    "n_ref": 474
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041749128.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041749128.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7350865939704939,
+                    "FN": 1201,
+                    "FP": 38,
+                    "IoU": 0.5811359026369168,
+                    "TN": 206566514,
+                    "TP": 1719,
+                    "n_pred": 1757,
+                    "n_ref": 2920
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041923209.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041923209.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7644055433989788,
+                    "FN": 209,
+                    "FP": 114,
+                    "IoU": 0.6186540731995277,
+                    "TN": 45350065,
+                    "TP": 524,
+                    "n_pred": 638,
+                    "n_ref": 733
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041930737.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041930737.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7824591573516767,
+                    "FN": 175,
+                    "FP": 78,
+                    "IoU": 0.6426553672316384,
+                    "TN": 40107324,
+                    "TP": 455,
+                    "n_pred": 533,
+                    "n_ref": 630
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041976197.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041976197.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.720112517580872,
+                    "FN": 189,
+                    "FP": 10,
+                    "IoU": 0.5626373626373626,
+                    "TN": 21233209,
+                    "TP": 256,
+                    "n_pred": 266,
+                    "n_ref": 445
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041989097.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041989097.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6977099236641221,
+                    "FN": 1057,
+                    "FP": 131,
+                    "IoU": 0.5357561547479485,
+                    "TN": 210761217,
+                    "TP": 1371,
+                    "n_pred": 1502,
+                    "n_ref": 2428
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041990499.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041990499.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.795094532447624,
+                    "FN": 342,
+                    "FP": 59,
+                    "IoU": 0.6598812553011026,
+                    "TN": 80477029,
+                    "TP": 778,
+                    "n_pred": 837,
+                    "n_ref": 1120
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0041999139.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0041999139.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8821119708693673,
+                    "FN": 155,
+                    "FP": 104,
+                    "IoU": 0.7890879478827362,
+                    "TN": 84671284,
+                    "TP": 969,
+                    "n_pred": 1073,
+                    "n_ref": 1124
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042004866.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042004866.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.808679706601467,
+                    "FN": 377,
+                    "FP": 249,
+                    "IoU": 0.6788096459722934,
+                    "TN": 261093475,
+                    "TP": 1323,
+                    "n_pred": 1572,
+                    "n_ref": 1700
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042023537.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042023537.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7572815533980582,
+                    "FN": 326,
+                    "FP": 49,
+                    "IoU": 0.609375,
+                    "TN": 39582784,
+                    "TP": 585,
+                    "n_pred": 634,
+                    "n_ref": 911
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042039246.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042039246.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8139740566037735,
+                    "FN": 652,
+                    "FP": 610,
+                    "IoU": 0.6863037534178473,
+                    "TN": 216002633,
+                    "TP": 2761,
+                    "n_pred": 3371,
+                    "n_ref": 3413
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042055200.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042055200.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8110106820049302,
+                    "FN": 326,
+                    "FP": 134,
+                    "IoU": 0.6821008984105045,
+                    "TN": 76282457,
+                    "TP": 987,
+                    "n_pred": 1121,
+                    "n_ref": 1313
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042066484.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042066484.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7999059487420644,
+                    "FN": 712,
+                    "FP": 139,
+                    "IoU": 0.6665360501567398,
+                    "TN": 201324040,
+                    "TP": 1701,
+                    "n_pred": 1840,
+                    "n_ref": 2413
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042083849.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042083849.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8185451638689049,
+                    "FN": 410,
+                    "FP": 44,
+                    "IoU": 0.6928281461434371,
+                    "TN": 168819258,
+                    "TP": 1024,
+                    "n_pred": 1068,
+                    "n_ref": 1434
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042089523.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042089523.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8079019073569482,
+                    "FN": 170,
+                    "FP": 112,
+                    "IoU": 0.6777142857142857,
+                    "TN": 47447189,
+                    "TP": 593,
+                    "n_pred": 705,
+                    "n_ref": 763
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042158139.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042158139.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8527755430410298,
+                    "FN": 201,
+                    "FP": 165,
+                    "IoU": 0.7433380084151473,
+                    "TN": 67369582,
+                    "TP": 1060,
+                    "n_pred": 1225,
+                    "n_ref": 1261
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042191011.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042191011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7481296758104738,
+                    "FN": 842,
+                    "FP": 67,
+                    "IoU": 0.5976095617529881,
+                    "TN": 175175469,
+                    "TP": 1350,
+                    "n_pred": 1417,
+                    "n_ref": 2192
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042255510.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042255510.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8211640211640212,
+                    "FN": 283,
+                    "FP": 224,
+                    "IoU": 0.696588868940754,
+                    "TN": 90438009,
+                    "TP": 1164,
+                    "n_pred": 1388,
+                    "n_ref": 1447
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042269693.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042269693.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8184806428049671,
+                    "FN": 670,
+                    "FP": 324,
+                    "IoU": 0.6927357032457496,
+                    "TN": 180351837,
+                    "TP": 2241,
+                    "n_pred": 2565,
+                    "n_ref": 2911
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042280220.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042280220.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8432835820895522,
+                    "FN": 116,
+                    "FP": 52,
+                    "IoU": 0.7290322580645161,
+                    "TN": 33291668,
+                    "TP": 452,
+                    "n_pred": 504,
+                    "n_ref": 568
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042288327.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042288327.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7773296540012736,
+                    "FN": 930,
+                    "FP": 119,
+                    "IoU": 0.6357638888888889,
+                    "TN": 185595072,
+                    "TP": 1831,
+                    "n_pred": 1950,
+                    "n_ref": 2761
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042291964.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042291964.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7653846153846153,
+                    "FN": 90,
+                    "FP": 32,
+                    "IoU": 0.6199376947040498,
+                    "TN": 24641215,
+                    "TP": 199,
+                    "n_pred": 231,
+                    "n_ref": 289
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042294571.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042294571.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.781465658889254,
+                    "FN": 379,
+                    "FP": 286,
+                    "IoU": 0.6413160733549083,
+                    "TN": 63699138,
+                    "TP": 1189,
+                    "n_pred": 1475,
+                    "n_ref": 1568
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042304819.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042304819.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7328847279110591,
+                    "FN": 1674,
+                    "FP": 152,
+                    "IoU": 0.5783883629646733,
+                    "TN": 187690773,
+                    "TP": 2505,
+                    "n_pred": 2657,
+                    "n_ref": 4179
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042313014.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042313014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8531415594246783,
+                    "FN": 292,
+                    "FP": 96,
+                    "IoU": 0.7438943894389439,
+                    "TN": 95156757,
+                    "TP": 1127,
+                    "n_pred": 1223,
+                    "n_ref": 1419
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042327890.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042327890.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8015655577299413,
+                    "FN": 433,
+                    "FP": 74,
+                    "IoU": 0.6688438928804703,
+                    "TN": 72612357,
+                    "TP": 1024,
+                    "n_pred": 1098,
+                    "n_ref": 1457
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042330105.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042330105.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.802149815250252,
+                    "FN": 409,
+                    "FP": 180,
+                    "IoU": 0.6696578799775659,
+                    "TN": 75757833,
+                    "TP": 1194,
+                    "n_pred": 1374,
+                    "n_ref": 1603
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042361793.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042361793.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8058076225045372,
+                    "FN": 198,
+                    "FP": 123,
+                    "IoU": 0.6747720364741642,
+                    "TN": 67370021,
+                    "TP": 666,
+                    "n_pred": 789,
+                    "n_ref": 864
+                }
+            },
+            "prediction_file": "/Volumes/desktop-ui6gsmh/nnUNet_results/Dataset615_InnerEar/nnUNetTrainer__nnUNetPlans__3d_fullres/crossval_results_folds_0_1_2_3_4/0042370457.nii.gz",
+            "reference_file": "/Volumes/MY PASSPORT/Dataset002_InnerEar/labelsTr/0042370457.nii.gz"
+        }
+    ]
+}
