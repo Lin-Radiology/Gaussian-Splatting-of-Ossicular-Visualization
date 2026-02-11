@@ -119,7 +119,43 @@ The script produces:
 
 ---
 
-## 6. Machine-Readable Files
+## 6. Software Environment and External Dependencies
+
+The visualization and segmentation pipeline was implemented using the following software and external frameworks:
+
+### 3D Visualization and Rendering
+
+- **Blender**: Version 4.2 LTS  
+- **BlenderNeRF**: Blender add-on for neural rendering integration  
+- **Bioxel Nodes**: Version 1.0.9  
+
+### Gaussian Splatting Framework
+
+- Official implementation of 3D Gaussian Splatting:  
+  https://github.com/graphdeco-inria/gaussian-splatting  
+
+The Gaussian optimization and point cloud generation were performed using the official implementation with default training parameters unless otherwise specified.
+
+### Automated Segmentation
+
+- **nnU-Net (v2)**:  
+  https://github.com/MIC-DKFZ/nnUNet  
+
+The segmentation network was trained on manually annotated ossicular masks using the standard nnU-Net configuration with region-of-interest cropping and intensity normalization.
+
+### Python Environment
+
+- Python ≥ 3.9  
+- nibabel  
+- trimesh  
+- open3d  
+- numpy  
+- scipy  
+- matplotlib
+
+---
+
+## 7. Machine-Readable Files
 
 To comply with Springer Open policy, all quantitative data are provided in:
 
@@ -131,7 +167,7 @@ No data are embedded in PDF-only format.
 
 ---
 
-## 7. Ethical Considerations
+## 8. Ethical Considerations
 
 - All clinical data were retrospectively collected.
 - Institutional review board approval was obtained.
@@ -140,7 +176,7 @@ No data are embedded in PDF-only format.
 
 ---
 
-## 8. Model Characteristics
+## 9. Model Characteristics
 
 Representative Gaussian models:
 
@@ -150,7 +186,7 @@ Representative Gaussian models:
 
 ---
 
-## 9. Intended Use
+## 10. Intended Use
 
 This repository is intended for:
 
@@ -162,19 +198,12 @@ It is not intended for clinical diagnosis.
 
 ---
 
-## 10. Citation
-
-If you use this work, please cite:
-
-[Manuscript citation information will be added upon acceptance.]
-
----
 
 ## 11. Contact
 
 For academic inquiries:
 
 Lin  
-Department of Radiology  
-West China Hospital  
+West China School of Medicine 
 Sichuan University  
+email:linhan@stu.scu.edu.cn
