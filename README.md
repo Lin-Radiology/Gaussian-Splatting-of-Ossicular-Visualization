@@ -2,7 +2,7 @@
 
 This repository provides supplementary materials, evaluation scripts, and quantitative results supporting the manuscript:
 
-**High-Resolution Three-Dimensional Visualization of the Ossicular Chain from Clinical CT Using Automated Segmentation and Gaussian Splatting**
+**High-Resolution Visualization of the Ossicular Chain from Clinical CT Using  3D Gaussian Splatting
 
 
 ---
