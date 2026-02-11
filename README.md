@@ -41,16 +41,21 @@ Researchers may request access to de-identified data subject to institutional ap
 ---
 
 ## 3. Repository Structure
+
+The repository is organized as follows:
+
+```text
 geometry_evaluation/
-├── geometry_consistency.py
-├── coverage_evaluation.py
-├── example_distances/
+├── geometry_consistency.py        # Surface-to-Gaussian distance computation
+├── coverage_evaluation.py         # Coverage ratio calculation
+├── example_distances/             # Machine-readable raw distance arrays (.npy)
 │   ├── case1_surface_to_gaussian.npy
 │   ├── case2_surface_to_gaussian.npy
 │   └── case3_surface_to_gaussian.npy
-├── summary_metrics.csv
-├── combined_cdf_figure.png
-└── segmentation_surface_examples/
+├── summary_metrics.csv            # Aggregated quantitative metrics
+├── combined_cdf_figure.png        # Publication-ready visualization
+└── segmentation_surface_examples/ # Example reconstructed surface meshes
+``` 
 ---
 
 ## 4. Quantitative Metrics Reported
