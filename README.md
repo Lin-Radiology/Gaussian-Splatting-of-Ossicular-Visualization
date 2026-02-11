@@ -169,17 +169,7 @@ The segmentation network was trained on manually annotated ossicular masks using
 
 ---
 
-## 7. Model Characteristics
-
-Representative Gaussian models:
-
-- Model size: 12–16 MB per case
-- Number of Gaussian primitives: ~50,000–65,000
-- Stored in `.ply` format
-
----
-
-## 8. Intended Use
+## 7. Intended Use
 
 This repository is intended for:
 
@@ -192,7 +182,7 @@ It is not intended for clinical diagnosis.
 ---
 
 
-## 9. Contact
+## 8. Contact
 
 For academic inquiries:
 
