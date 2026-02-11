@@ -45,16 +45,22 @@ Researchers may request access to de-identified data subject to institutional ap
 The repository is organized as follows:
 
 ```text
-geometry_evaluation/
-├── geometry_consistency.py        # Surface-to-Gaussian distance computation
-├── coverage_evaluation.py         # Coverage ratio calculation
-├── example_distances/             # Machine-readable raw distance arrays (.npy)
-│   ├── case1_surface_to_gaussian.npy
-│   ├── case2_surface_to_gaussian.npy
-│   └── case3_surface_to_gaussian.npy
-├── summary_metrics.csv            # Aggregated quantitative metrics
-├── combined_cdf_figure.png        # Publication-ready visualization
-└── segmentation_surface_examples/ # Example reconstructed surface meshes
+.
+├── 0040025443_R_NBK.blend
+├── Zoom_Resample_SigFile.py
+├── calc_coverage.py                  # Script for surface coverage calculation
+├── dataset.json                      # Dataset specification/config
+├── geometry_consistency.py           # Surface-to-Gaussian distance computation
+├── plans.json                        # Segmentation/nnUNet plans
+├── point_cloud.ply                   # Example Gaussian splatting point cloud
+├── postprocessing.json
+├── postprocessing.pkl
+├── progress.png                      # Training/evaluation progress visualization
+├── summary.json                      # Summary results from evaluation/training
+├── surface_to_gaussian_distances.npy # Precomputed geometry deviation arrays
+├── training_log_2025_11_20_23_16_34.txt  # Training log for segmentation (if available)
+├── README.md                         # This documentation
+└── segmentation_surface_examples/    # Example reconstructed meshes (anonymized)
 ``` 
 ---
 
